@@ -5,7 +5,7 @@ web:
     volumes:
         - ./data/profiles:/usr/share/nginx/html/profiles
 app:
-    image: bstegmaier/brouter-app
+    image: jmasm/brouter-app
     ports:
         - "17777:17777"
     volumes:
